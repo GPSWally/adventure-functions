@@ -37,7 +37,7 @@
 
 	var arrIndex = function(arr){
 		return Math.floor(Math.random() * arr);
-	}
+	};
 
 function newAdvent() {
 
@@ -74,6 +74,7 @@ function newAdvent() {
 new_adventure.onclick = newAdvent;
 //var game = document.getElementByID("new_adventure");
 
+window.onload = newAdvent;  //creates a new adventure by doing a screen refresh.....
 
 /*
 	TODO: Right now the "new adventure!" button doesn't work. Create a function
