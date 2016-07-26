@@ -30,13 +30,12 @@
 		"office",
 		"bathroom",
 		"kitchen",
-		"dungeon"
 	];
 
 	var heroGender;
 
-	var arrIndex = function(arr){
-		return Math.floor(Math.random() * arr);
+	var arrIndex = function(){
+		return Math.floor(Math.random() * 4);
 	};
 
 function newAdvent() {
